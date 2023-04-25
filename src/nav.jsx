@@ -5,10 +5,10 @@ const Nav = () => {
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
         <li className='nav-item'>
-          <Link className='nav-link' to="/">Home</Link>
+          <Link className='nav-link' to="/teammemberallocation/">Home</Link>
         </li>
         <li className='nav-item'>
-          <Link className='nav-link' to="/groupedteammembers">Teams</Link>
+          <Link className='nav-link' to="/teammemberallocation/groupedteammembers">Teams</Link>
         </li>
       </ul>
     </nav>
