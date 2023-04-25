@@ -123,13 +123,13 @@ function App() {
         teamMemberCount={employees.filter((employee) => employee.teamName === selectedTeam).length}
       />
       <Routes>
-        <Route path='/teammemberallocation/' element={<Employees employees={employees} 
+        <Route path='./teammemberallocation/' element={<Employees employees={employees} 
             selectedTeam={selectedTeam} 
             handleTeamSelectionChange={handleTeamSelectionChange} 
             handleEmployeeCardClick={handleEmployeeCardClick} 
             />}>
         </Route>
-        <Route path='/teammemberallocation/groupedteammembers' element={<GroupedTeamMembers employees={employees} selectedTeam={selectedTeam} setTeam={setTeam} />}>
+        <Route path='./teammemberallocation/groupedteammembers' element={<GroupedTeamMembers employees={employees} selectedTeam={selectedTeam} setTeam={setTeam} />}>
         </Route>
         <Route path='*' element={<NotFound />}>
         </Route>
